@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中转页面 | 天灵の小窝</title>
+    <link rel="icon" href="https://tianlingblog.mclinyunhai.com/favicon.png" type="image/png">
+    <meta http-equiv="refresh" content="3;url=https://tianlingblog.mclinyunhai.com/">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 52px 42px;
+            border-radius: 0;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .title {
+            font-size: 28px;
+            color: #111827;
+            margin-bottom: 14px;
+            letter-spacing: 1px;
+        }
+
+        .desc {
+            color: #4b5563;
+            font-size: 16px;
+            margin-bottom: 36px;
+        }
+
+        .link-btn {
+            display: inline-block;
+            padding: 13px 36px;
+            background: #165dff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 0;
+            font-size: 16px;
+            transition: all 0.24s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .link-btn:hover {
+            background: #0e50e6;
+            box-shadow: 0 6px 18px rgba(22, 93, 255, 0.22);
+        }
+
+        .link-btn:active {
+            opacity: 0.9;
+        }
+
+        .url-text {
+            margin-top: 24px;
+            font-size: 14px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">正在跳转</div>
+        <div class="desc">即将访问「天灵の小窝」</div>
+        <a class="link-btn" href="https://tianlingblog.mclinyunhai.com/">立即访问</a>
+        <div class="url-text">页面将在 3 秒后自动跳转，若未跳转请点击按钮</div>
+    </div>
+    <script>
+        setTimeout(() => {
+            location.replace("https://tianlingblog.mclinyunhai.com/");
+        }, 3000);
+    </script>
+</body>
+
+</html>
