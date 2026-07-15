@@ -14,5 +14,5 @@ Github Pages 中转页，访问自动跳转至博客主站。
 
 ## 版权说明
 
-页面源代码（HTML/CSS/JS）遵循 [MIT License](./LICENSE)。
+页面源代码（HTML/CSS/JS）遵循 [MIT License](./LICENSE)。  
 博客原创文章、图文内容不属于本仓库，遵循 **CC BY-NC-SA 4.0** 协议。
