@@ -10,7 +10,7 @@ Github Pages 中转页，访问自动跳转至博客主站。
 
 ## 目标站点
 
-- https://tianlingblog.mclinyunhai.com/
+- https://tkbk.mclinyunhai.com/
 
 ## 版权说明
 
